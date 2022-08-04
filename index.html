@@ -20,13 +20,13 @@
   <!-- <script src="./js/modal.js"></script> -->
   <body>
     <!-- Шапка сайта -->
-    <header class="section page-header">
+    <header class="page-header">
       <div class="container page-header__content">
         <nav class="site-nav">
           <a class="logo" href="./index.html"
             ><span class="logo--blue">Web</span>Studio</a
           >
-          <ul class="site-nav__list list">
+          <ul class="site-nav__list">
             <li class="site-nav__item">
               <a
                 class="site-nav__link site-nav__link--current"
@@ -42,7 +42,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="contacts list">
+        <ul class="contacts">
           <li class="contacts__item">
             <a class="contacts__link link" href="moilto:info@devstudio.com">
               <svg class="contacts__icon" width="16" height="12">
@@ -64,18 +64,18 @@
     </header>
     <!-- Заголовок -->
     <main>
-      <section class="hero section">
+      <section class="hero">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-          <button data-modal-open type="button" class="hero__button">
+          <button data-modal-open type="button" class=" button hero__button">
             Замовити послугу
           </button>
         </div>
       </section>
       <!-- Особенности -->
-      <section class="features section">
+      <section class="features">
         <div class="container">
-          <ul class="features__list list">
+          <ul class="features__list">
             <li class="features__item">
               <a
                 class="link features__link"
@@ -145,8 +145,8 @@
                   </svg>
                 </div>
               </a>
-              <h2 class="feauters__subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-              <p class="feauters__desc">
+              <h2 class="features__subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+              <p class="features__desc">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -155,10 +155,10 @@
         </div>
       </section>
       <!-- Чем мы занимаемся -->
-      <section class="work section">
+      <section class="work">
         <div class="container">
           <h2 class="title">Чим ми займаємося</h2>
-          <ul class="work__list list">
+          <ul class="work__list">
             <li class="work__item">
               <img
                 class="work-img"
@@ -190,10 +190,10 @@
         </div>
       </section>
       <!-- Наша команда -->
-      <section class="team section">
+      <section class="team">
         <div class="container">
           <h2 class="title">Наша команда</h2>
-          <ul class="team__list list">
+          <ul class="team__list">
             <li class="team__item">
               <img
                 class="team__img"
@@ -204,7 +204,7 @@
               <div class="team__wrapper">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p class="team__post">Product Designer</p>
-                <ul class="team-social list">
+                <ul class="team-social">
                   <li class="team-social__item">
                     <a
                       class="link team-social__link"
@@ -282,7 +282,7 @@
               <div class="team__wrapper">
                 <h3 class="team__name">Ольга Репіна</h3>
                 <p class="team__post">Frontend Developer</p>
-                <ul class="team-social list">
+                <ul class="team-social">
                   <li class="team-social__item">
                     <a
                       class="link team-social__link"
@@ -360,7 +360,7 @@
               <div class="team__wrapper">
                 <h3 class="team__name">Миколай Тарасов</h3>
                 <p class="team__post">Marketing</p>
-                <ul class="team-social list">
+                <ul class="team-social">
                   <li class="team-social__item">
                     <a
                       class="team-social__link"
@@ -437,8 +437,8 @@
               />
               <div class="team__wrapper">
                 <h3 class="team__name">Михайло Єрмаков</h3>
-                <p class="team-post">UI Designer</p>
-                <ul class="team-social list">
+                <p class="team__post">UI Designer</p>
+                <ul class="team-social">
                   <li class="team-social__item">
                     <a
                       class="link team-social__link"
@@ -510,10 +510,10 @@
         </div>
       </section>
       <!-- Постоянные клиенты -->
-      <section class="clients section">
+      <section class="clients">
         <div class="container">
           <h2 class="title">Постійні клієнти</h2>
-          <ul class="clients__list list">
+          <ul class="clients__list">
             <li class="clients__item">
               <a
                 class="link clients__link"
@@ -591,14 +591,14 @@
       </section>
     </main>
     <!-- Подвал сайта -->
-    <footer class="footer section">
+    <footer class="footer">
       <div class="container footer__content">
         <div class="footer__address">
           <a href="./index.html" class="footer-logo"
             ><span class="logo--blue">Web</span>Studio</a
           >
           <address class="address">
-            <ul class="address__list list">
+            <ul class="address__list">
               <li class="address__item">
                 <a
                   class="address__link"
@@ -625,7 +625,7 @@
         </div>
         <div class="social">
           <h2 class="footer__subtitle">приєднуйтесь</h2>
-          <ul class="footer-social list">
+          <ul class="footer-social">
             <li class="footer-social__item">
               <a
                 class="link footer-social__link"
@@ -719,7 +719,7 @@
               id="user_email"
             />
 
-            <button class="mailing__button" type="submit">
+            <button class="button mailing__button" type="submit">
               Підписатися
               <svg class="mailing__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -811,7 +811,7 @@
             >
           </label>
 
-          <button class="modal-form__button" type="submit">Відправити</button>
+          <button class=" button modal-form__button" type="submit">Відправити</button>
         </form>
       </div>
     </div>

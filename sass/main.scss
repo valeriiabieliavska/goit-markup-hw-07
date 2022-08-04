@@ -1,9 +1,17 @@
-@import './components/page-header/contacts';
-@import './components/page-header/navigation';
+@import './utils/variables';
 
-@import './components/page-footer/address';
-@import './components/page-footer/form';
-@import './components/page-footer/social';
+@import './utils/placeholders';
+
+@import './components/basic';
+
+@import './components/logo';
+
+@import './components/buttons';
+
+@import './components/page-header/page-header';
+@import './components/page-header/navigation';
+@import './components/page-header/contacts';
+
 
 @import './components/main-index/hero';
 @import './components/main-index/features';
@@ -15,10 +23,10 @@
 @import './components/main-portfolio/filter';
 @import './components/main-portfolio/projects';
 
-@import './components/basic';
 
-@import './components/buttons';
+@import './components/page-footer/address';
+@import './components/page-footer/form';
+@import './components/page-footer/social';
 
-@import './components/logo';
 
-@import './utils/variables';
+
