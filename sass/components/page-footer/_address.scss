@@ -41,17 +41,27 @@
 
 .address {
   margin-top: 20px;
+}
 
-  &__item {
-    margin-bottom: 9px;
+.address__item {
+  margin-bottom: 9px;
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+  &:last-child {
+    margin-bottom: 0;
   }
+}
 
-  &__link {
-    color: $white-color;
+.address__link {
+  color: $white-color;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  &--contacts {
+    color: $footer-contacts-placeholder-color;
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -59,21 +69,11 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    &--contacts {
-      color: $footer-contacts-placeholder-color;
-      text-decoration: none;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.71;
-      letter-spacing: 0.03em;
+    transition: color $duration $cubic;
 
-      transition: color $duration $cubic;
-
-      &:hover,
-      &:focus {
-        color: $accent-color;
-      }
+    &:hover,
+    &:focus {
+      color: $accent-color;
     }
   }
 }
