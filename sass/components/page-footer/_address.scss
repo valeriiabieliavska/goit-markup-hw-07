@@ -43,6 +43,10 @@
   margin-top: 20px;
 }
 
+.address__list {
+  @extend %reset-list;
+}
+
 .address__item {
   margin-bottom: 9px;
 

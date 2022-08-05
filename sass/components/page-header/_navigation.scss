@@ -47,3 +47,7 @@
     opacity: 1;
   }
 }
+
+.site-nav__link--current {
+  color: $accent-color;
+}
